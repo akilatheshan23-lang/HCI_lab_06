@@ -1,0 +1,9 @@
+.private/
+build/
+node_modules/
+__pycache__/
+*.jks
+*.keystore
+*.env
+local.properties
+.DS_Store

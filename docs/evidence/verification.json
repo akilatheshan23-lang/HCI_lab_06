@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-03",
+  "method": "Observed interactive browser checks, official Android build tools, and Pixel 7 emulator smoke test",
+  "testData": "Local example profile Akila, age 23, height 170 cm, weight 65 kg; these are test values, not verified personal health details.",
+  "checks": [
+    {"test":"Release build and signing", "result":"PASS: R8 release APK produced; v2/v3 signatures and alignment verified."},
+    {"test":"Android install and launch", "result":"PASS: APK installed on emulator-5554 and onboarding rendered."},
+    {"test":"Local profile setup", "result":"PASS: entered profile opens personalized dashboard."},
+    {"test":"Meal journal", "result":"PASS: 520 kcal meal with 22g protein, 80g carbs, 12g fat appears with matching totals."},
+    {"test":"Water journal", "result":"PASS: add-glass changes 0 to 1 glass and 0.00 to 0.25 L."},
+    {"test":"Persistence", "result":"PASS: reload preserves profile, meal, and water records."},
+    {"test":"Workout category filter", "result":"PASS: Mobility displays Morning reset and Evening unwind."},
+    {"test":"Session timer / pause", "result":"PASS: countdown advances to next step; paused display remains at 00:30."},
+    {"test":"Session completion / history", "result":"PASS: test session recorded 90 seconds, displayed as 2 minutes; remaining movements skipped."},
+    {"test":"Private community note", "result":"PASS: entered note appears with local-only label."},
+    {"test":"Profile focus / recommendation", "result":"PASS: changing focus to strength recommends Full-body foundations."},
+    {"test":"JSON export", "result":"PASS: dialog contains profile and recorded journals as structured JSON."},
+    {"test":"Responsive layout", "result":"PASS for inspected screens: 320px/390px phone, 1024px tablet and 1440px desktop. Narrow hero overlap fixed."},
+    {"test":"Browser error log spot-check", "result":"PASS: no error/warning entries returned during the nutrition/water check."}
+  ],
+  "notExecuted": ["Extended headless Playwright suite: launch blocked by EPERM", "Minimum Android version and physical-device matrix", "Battery and performance measurements", "Screen reader and large font testing", "Store-track internal deployment", "Genuine human usability sessions", "Apple build and TestFlight", "Lecturer or team approval"],
+  "approval": "NOT REQUESTED / NOT GRANTED"
+}

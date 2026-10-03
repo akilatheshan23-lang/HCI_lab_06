@@ -1,0 +1,2 @@
+-keep public class lk.fitflow.it23379442.MainActivity { public *; protected *; }
+-keepattributes SourceFile,LineNumberTable

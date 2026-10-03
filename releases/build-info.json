@@ -1,0 +1,13 @@
+{
+  "applicationId": "lk.fitflow.it23379442",
+  "versionName": "1.1.0",
+  "versionCode": 2,
+  "minSdk": 26,
+  "targetSdk": 36,
+  "bytes": 42190,
+  "sha256": "b8015012dec12b6a889bdc70ae1c9820342900c476024f6594d0f4e62e425eda",
+  "artifact": "FitFlow-1.1.0-release.apk",
+  "buildTools": "36.1.0",
+  "signing": "Local private release key; excluded from Git",
+  "optimization": "R8 release shrinking/optimization/obfuscation, ZIP deflate assets, zipalign. No third-party Java dependencies."
+}
